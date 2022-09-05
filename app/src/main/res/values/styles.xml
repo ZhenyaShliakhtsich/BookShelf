@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cart_buy_style">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/buy_text_color</item>
+    </style>
+    <style name="cart_sum_style">
+        <item name="android:textSize">@dimen/sp30</item>
+        <item name="android:textColor">@color/sum_text_color</item>
+    </style>
+    <style name="item_book_price_style">
+        <item name="android:textSize">@dimen/sp25</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="item_book_header_style">
+        <item name="android:textSize">@dimen/sp15</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="item_book_description_style">
+        <item name="android:textSize">@dimen/sp10</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="item_new_book_header_style">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">@dimen/sp12</item>
+    </style>
+    <style name="item_new_book_price_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/sp12</item>
+    </style>
+</resources>
