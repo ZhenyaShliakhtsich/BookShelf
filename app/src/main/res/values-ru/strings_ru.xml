@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookShelf</string>
+    <string name="new_releases">Новые книги</string>
+    <string name="home">Старт</string>
+    <string name="search">Поиск</string>
+    <string name="favourite">Любимые</string>
+    <string name="cart">Корзина</string>
+    <string name="searching">Поиск</string>
+    <string name="buy">Купить</string>
+    <string name="added_to_cart">Добавленно в корзину</string>
+</resources>

@@ -47,5 +47,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/delete_button"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/dp16"
+        app:layout_constraintTop_toBottomOf="@id/item_book_price"
+        android:background="@drawable/delete_icon"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

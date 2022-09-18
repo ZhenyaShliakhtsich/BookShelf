@@ -57,4 +57,10 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.1")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.1")
     implementation 'com.squareup.picasso:picasso:2.8'
+    implementation 'androidx.paging:paging-common-ktx:3.1.0-beta01'
+    implementation 'androidx.paging:paging-runtime-ktx:3.1.0-beta01'
+    implementation "androidx.room:room-ktx:2.5.0-alpha02"
+    kapt "androidx.room:room-compiler:2.5.0-alpha02"
+    implementation "androidx.room:room-runtime:2.5.0-alpha02"
+    implementation "androidx.room:room-paging:2.5.0-alpha02"
 }

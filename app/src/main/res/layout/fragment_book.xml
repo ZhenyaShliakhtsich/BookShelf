@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="@dimen/dp221"
+        android:layout_height="@dimen/dp338"
+        android:layout_marginTop="@dimen/dp16"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="@dimen/dp221"
+        android:layout_height="@dimen/dp50"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/book_image" />
+
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="@dimen/dp221"
+        android:layout_height="@dimen/dp50"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/book_name" />
+
+    <TextView
+        android:id="@+id/book_rate"
+        android:layout_width="@dimen/dp60"
+        android:layout_height="@dimen/dp31"
+        android:layout_margin="@dimen/dp10"
+        android:gravity="end"
+        app:drawableStartCompat="@drawable/star_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/book_author" />
+
+    <ImageView
+        android:id="@+id/like_button"
+        android:layout_width="@dimen/dp31"
+        android:layout_height="@dimen/dp31"
+        android:layout_margin="@dimen/dp10"
+        app:layout_constraintStart_toEndOf="@id/book_rate"
+        app:layout_constraintTop_toBottomOf="@id/book_author" />
+
+
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="@dimen/dp357"
+        android:layout_height="0dp"
+        android:layout_marginVertical="@dimen/dp16"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@id/buy_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/book_rate" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buy_button"
+        android:layout_width="@dimen/dp173"
+        android:layout_height="@dimen/dp55"
+        android:layout_marginVertical="@dimen/dp16"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
