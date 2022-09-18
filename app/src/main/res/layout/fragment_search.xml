@@ -9,13 +9,14 @@
         android:id="@+id/search_edit_text"
         android:layout_width="0dp"
         android:layout_height="@dimen/dp50"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/dp16"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/searching"
         android:paddingHorizontal="@dimen/dp16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/search_recycler_view"
@@ -25,6 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/search_edit_text" />
+        app:layout_constraintTop_toBottomOf="@id/search_edit_text"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
